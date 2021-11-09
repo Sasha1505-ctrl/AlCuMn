@@ -9,7 +9,7 @@ from channels.db import database_sync_to_async
 
 
 # Класс ChatConsumer
-from ClassHome.models import Message
+from main.models import Message
 
 
 class ChatConsumer(AsyncWebsocketConsumer):
