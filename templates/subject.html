@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  {% load static %}
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <img class="header__logo" src="img/logo-blue.svg" alt="logo">
+      <ul class="navbar">
+        <li class="navbar__item"><a href="../timetable.html">Расписание</a></li>
+        <li class="navbar__item"><a href="../portfolio.html">Моё портфолио</a></li>
+        <li class="navbar__item navbar__item--active">Предметы</li>
+      </ul>
+      <a href="../personal.html">Личный кабинет</a>
+    </div>
+  </header>
+
+  <section class="lessons">
+    <div class="container">
+      <h2 class="lessons__title">Предмет “Методы и средства программирования”</h2>
+
+      <div class="lessons__left">
+        <div class="lesson-card">
+          <div class="status status--err"></div>
+          <p class="lesson-card__date">Дата и время начала: Вторник 9 ноября 2021 9:00 </p>
+          <h3 class="lesson-card__title">Тема: Сетевая модель данных</h3>
+          <span class="lesson-card__type">Тип занятия: лекция</span>
+        </div>
+        <div class="lesson-card">
+          <div class="status status--suc"></div>
+          <p class="lesson-card__date">Дата и время начала: Вторник 9 ноября 2021 9:00 </p>
+          <h3 class="lesson-card__title">Тема: Сетевая модель данных</h3>
+          <span class="lesson-card__type">Тип занятия: лекция</span>
+        </div>
+        <div class="lesson-card">
+          <div class="status status--suc"></div>
+          <p class="lesson-card__date">Дата и время начала: Вторник 9 ноября 2021 9:00 </p>
+          <h3 class="lesson-card__title">Тема: Сетевая модель данных</h3>
+          <span class="lesson-card__type">Тип занятия: лекция</span>
+        </div>
+        <div class="lesson-card">
+          <div class="status status--err"></div>
+          <p class="lesson-card__date">Дата и время начала: Вторник 9 ноября 2021 9:00 </p>
+          <h3 class="lesson-card__title">Тема: Сетевая модель данных</h3>
+          <span class="lesson-card__type">Тип занятия: лекция</span>
+        </div>
+        <div class="lesson-card">
+          <div class="status status--err"></div>
+          <p class="lesson-card__date">Дата и время начала: Вторник 9 ноября 2021 9:00 </p>
+          <h3 class="lesson-card__title">Тема: Сетевая модель данных</h3>
+          <span class="lesson-card__type">Тип занятия: лекция</span>
+        </div>
+        <div class="lesson-card">
+          <div class="status status--err"></div>
+          <p class="lesson-card__date">Дата и время начала: Вторник 9 ноября 2021 9:00 </p>
+          <h3 class="lesson-card__title">Тема: Сетевая модель данных</h3>
+          <span class="lesson-card__type">Тип занятия: лекция</span>
+        </div>
+      </div>
+      <!-- /.lessons__left -->
+
+      <div class="lessons__right">
+        <h3>Фильтры</h3>
+        <input type="checkbox" id="filt-1">
+        <label for="filt-1">Не сделанные</label>
+        <input type="checkbox" id="filt-1">
+        <label for="filt-1">Лекции</label>
+        <input type="checkbox" id="filt-1">
+        <label for="filt-1">Практические</label>
+
+      </div>
+
+
+    </div>
+  </section>
+
+</body>
+</html>

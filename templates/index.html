@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  {% load static %}
+</head>
+<body>
+
+  <section class="auth">
+    <div class="auth__container">
+      <img src="img/logo.svg" alt="" class="auth__logo">
+      <h1 class="auth__title">Введите ваш ID:</h1>
+      <form action="submit" class="auth__form">
+        <label for="login" class="error error-email">Такого пользователя нет в базе - <a id="reg__btn">зарегистрируйтесь</a></label>
+        <input type="email" class="auth__input" id="login" placeholder="Почта">
+        <label for="login" class="error error-password">Неверный пароль</a></label>
+        <input type="password" class="auth__input" id="password" placeholder="Пароль">
+        <button type="submit" id="auth__btn" class="button auth__button"><span>Войти</span></button>
+      </form>
+      
+      <a id="reg__btn">Регистрация</a>
+    </div>
+  </section>
+
+  <script src="js/auth.js"></script>
+
+</body>
+</html>

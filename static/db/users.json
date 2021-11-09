@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "login": "i'm_admin@mail.ru",
+    "password": "dorado",
+    "role": "moderator"
+  },
+  {
+    "id": 2,
+    "login": "user@mail.ru",
+    "password": "dorado",
+    "role": "teacher"
+  },
+  {
+    "id": 3,
+    "login": "qwerty@mail.ru",
+    "password": "dorado",
+    "role": "student"
+  },
+  {
+    "id": 4,
+    "login": "mail@mail.ru",
+    "password": "dorado",
+    "role": "student"
+  }
+]

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  {% load static %}
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <img class="header__logo" src="img/logo-blue.svg" alt="logo">
+      <ul class="navbar">
+        <li class="navbar__item navbar__item--active">Расписание</li>
+        <li class="navbar__item"><a href="../portfolio.html">Моё портфолио</a></li>
+        <li class="navbar__item"></li>
+      </ul>
+      <a href="../personal.html">Личный кабинет</a>
+    </div>
+  </header>
+
+  <section class="timetable">
+    <div class="container">
+      <div class="timetable__top">
+        <div class="right-section">
+          <h2 class="timetable__title">Здравствуйте, <span id="timetable-user-name">Иванов Иван!</span></h2>
+        <p class="timetable__current-subject">Сейчас у вас пара по предмету <span id="timetable-user-subject">"Информационная информация"</span></p>
+        </div>
+        <div class="left-srction">
+          <span>08.11.2021 23:36</span>
+        </div>
+      </div>
+      
+  
+      <h3 class="timetable__h3">Расписание:</h3>
+
+      <div class="timetable__table">
+        <div class="timetable__row timetable__row--first">
+          <div class="timetable__cell timetable__cell--empty">
+          </div>
+          <div class="timetable__cell">
+            <p>Понедельник</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Вторник</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Среда</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Четверг</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Пятница</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Суббота</p>
+          </div>
+        </div>
+        <!-- /.timetable__row -->
+        
+        <div class="timetable__row">
+          <div class="timetable__cell timetable__cell--first">
+            1
+          </div>
+          <a href="../subject.html" class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </a>
+          <a href="../subject.html" class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </a>
+          <a href="../subject.html" class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </a>
+          <a href="../subject.html" class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </a>
+          <a href="../subject.html" class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </a>
+          <a href="../subject.html" class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </a>
+        </div>
+        <!-- /.timetable__row -->
+  
+        <div class="timetable__row">
+          <div class="timetable__cell timetable__cell--first">
+            2
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+        </div>
+        <!-- /.timetable__row -->
+  
+        <div class="timetable__row">
+          <div class="timetable__cell timetable__cell--first">
+            3
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell timetable__cell--active">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+        </div>
+        <!-- /.timetable__row -->
+  
+        <div class="timetable__row">
+          <div class="timetable__cell timetable__cell--first">
+            4
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+          <div class="timetable__cell">
+            <p>Предмет</p>
+            <p>преподаватель</p>
+            <p>Кабинет</p>
+          </div>
+        </div>
+        <!-- /.timetable__row -->
+  
+      </div>
+      <!-- /.timetable__table -->
+    </div>
+  </section>
+
+</body>
+</html>

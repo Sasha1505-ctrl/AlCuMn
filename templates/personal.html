@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  {% load static %}
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__container">
+      <img class="header__logo" src="img/logo-blue.svg" alt="logo">
+      <ul class="navbar">
+        <li class="navbar__item"><a href="../timetable.html">Расписание</a></li>
+        <li class="navbar__item"><a href="../portfolio.html">Моё портфолио</a></li>
+        <li class="navbar__item"></li>
+      </ul>
+      <a href="../personal.html" class="navbar__item--active">Личный кабинет</a>
+    </div>
+  </header>
+
+  <section class="personal">
+    <div class="container personal__container">
+      <div class="personal__left">
+        <img class="personal__image" src="https://thispersondoesnotexist.com/image" alt="">
+      </div>
+      <div class="personal__right">
+        <h2>О себе:</h2>
+        <input type="name" placeholder="Фамилия">
+        <input type="text" placeholder="Имя">
+        <input type="text" placeholder="Отчество">
+        <input type="text" placeholder="Город">
+
+        <h2>Учебное заведение:</h2>
+        <input type="text" placeholder="Название">
+        <input type="text" placeholder="Группа">
+        <input type="radio" id="radio-1">
+        <label for="radio-1">Преподаватель</label>
+        <input type="radio" id="radio-2">
+        <label for="radio-2">Студент</label>
+      </div>
+      <!-- /.personal__right -->
+    </div>
+    <!-- /.container -->
+  </section>
+  
+</body>
+</html>
